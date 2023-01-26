@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.font-mono {
+  font-family: "IBM Plex Mono";
+}
+
+
+.section-spacing{
+    padding:  100px 0;
+}
+
+.margin-100px{
+  margin: 100px 0;
+}
+.h-100vh{
+    height: 100vh;
+}
+.footer-background{
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(to right, #445f86, #969090);
+  min-height: 100px;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px 50px 0 0;
+}
