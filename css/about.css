@@ -1,0 +1,60 @@
+.main-section-background{
+    width: 100%;
+    height: 80vh;
+    background-color: #173eaf;
+  }
+.main-section .demo-btn{
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-weight: 500;
+}
+
+.main-section .demo-btn:hover{
+    background: rgb(53, 101, 235);
+}
+.font-mono {
+    font-family: "IBM Plex Mono";
+}
+.font-Franklin{
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+.large-btn{
+    width: 10rem;
+    height: 3rem;
+}
+.card{
+    width: 220px;
+    height: 290px;
+  }
+.footer-background{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(to right, #445f86, #969090);
+    min-height: 100px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px 50px 0 0;
+  }  
+  h1{
+    font-size: 45px
+  }
+  @media screen and (max-width: 480px) {
+    .card{
+        width: 85%;
+    }
+     h3{
+        padding: 29px;
+     }
+     h1{
+        align-items: center;
+        font-size: 27px;
+     }
+     .main-section-background{
+        height: 600px;
+     }
+    }
